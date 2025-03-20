@@ -12,6 +12,4 @@ ThisBuild / scalafixOnCompile := true
 lazy val root = (project in file("."))
   .settings(
     name := "sandbox",
-
-    libraryDependencies += "org.scalameta" %% "munit" % "1.0.0" % Test
   )
